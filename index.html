@@ -22,6 +22,22 @@
   height: 160px;
   object-fit: cover;
 }
+    .team-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.team-text {
+  flex: 1;
+}
+
+.team-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
@@ -129,27 +145,34 @@
       </p>
     </section>
 
-    <section class="card">
-      <h2>Team</h2>
-      <p>
-        <strong>Principal Investigator:</strong> 
-       <li>Ben Black, Rutgers University</li>
-      </p>
-            <p>
-        <strong>Co-PIs:</strong>
-                   
-              
-              <li>Leif Karlstrom, University of Oregon</li>
-               <li>Tamsin Mather, University of Oxford</li>
-               <li>Benjamin Mills, University of Leeds</li>
-               <li>Pedro Monarrez, Virginia Tech</li>
-               <li>Lauren Neitzke Adamo, Rutgers University</li>
-      <li>Max Rudolph, UC Davis</li>
-                    <li>Danielle Santiago Ramos, Rutgers University</li>
-               <li>Blair Schoene, Princeton University</li>
-      </p>
+<section class="card">
+  <h2>Team</h2>
 
-    </section>
+  <div class="team-row">
+
+    <div class="team-text">
+      <p><strong>Principal Investigator:</strong></p>
+      <ul>
+        <li>Ben Black, Rutgers University</li>
+      </ul>
+
+      <p><strong>Co-PIs:</strong></p>
+      <ul>
+        <li>Leif Karlstrom, University of Oregon</li>
+        <li>Tamsin Mather, University of Oxford</li>
+        <li>Benjamin Mills, University of Leeds</li>
+        <li>Pedro Monarrez, Virginia Tech</li>
+        <li>Lauren Neitzke Adamo, Rutgers University</li>
+        <li>Max Rudolph, UC Davis</li>
+        <li>Danielle Santiago Ramos, Rutgers University</li>
+        <li>Blair Schoene, Princeton University</li>
+      </ul>
+    </div>
+
+    <img src="teamphoto.png" alt="C2C team" class="team-image">
+
+  </div>
+</section>
 
     <section class="card">
       <h2>Publications</h2>
@@ -162,7 +185,8 @@
         <section class="card">
       <h2>News</h2>
       <p>
-       <li>Ben was <a href="https://eos.org/articles/volcanism-could-lead-to-less-not-more-atmospheric-co₂">quoted in Eos</a> about a new paper on Emeishan and climate.</li> 
+       <li>March 2026: Ben was <a href="https://eos.org/articles/volcanism-could-lead-to-less-not-more-atmospheric-co₂">quoted in Eos</a> about a new paper on Emeishan and climate.</li> 
+      <li>October 2025: A very successful team field season! Photos to be uploaded soon.</li>
       </p>
     </section>
 
